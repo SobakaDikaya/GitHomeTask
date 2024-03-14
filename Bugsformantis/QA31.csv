@@ -1,0 +1,11 @@
+﻿Id,Project,Reporter,Assigned To,Priority,Severity,Reproducibility,Product Version,Category,Date Submitted,OS,OS Version,Platform,View Status,Updated,Summary,Status,Resolution,Fixed in Version
+0001875,QA31,Svitlana,,normal,minor,always,,General,2024-03-14,,,,public,2024-03-14,[Ляшенко] Название новости за 13.02.2024 отображается на украинском языке в английской локализации сайта,new,open,
+0001874,QA31,Svitlana,,high,minor,always,,General,2024-03-14,,,,public,2024-03-14,[Ляшенко] Элементы кода отображаются в согласии на обработку персональных данных в украинской локализации сайта,new,open,
+0001873,QA31,Svitlana,,high,minor,always,,General,2024-03-14,,,,public,2024-03-14,[Ляшенко]Информация по ссылкам в футере сайта отображается на украинском языке вместо английского в английской локализации сайта,new,open,
+0001872,QA31,Svitlana,,normal,trivial,always,,General,2024-03-14,,,,public,2024-03-14,"[Ляшенко] Орфографическая ошибка в слове ""GameDev"" на странице с меню в английской локализации сайта",new,open,
+0001871,QA31,Svitlana,,normal,trivial,always,,General,2024-03-14,,,,public,2024-03-14,"[Ляшенко] Орфографические и грамматические ошибки в ""Address"" в английской локализации сайта",new,open,
+0001870,QA31,Svitlana,,high,minor,always,,General,2024-03-14,,,,public,2024-03-14,"[Ляшенко] Пустая страница при переходе по ссылке на ""Viber"" на главной странице",new,open,
+0001869,QA31,Svitlana,,high,major,always,,General,2024-03-14,,,,public,2024-03-14,"[Ляшенко] Отображается часть кода в результатах поиска символа ""пробел"" или просто пустых данных",new,open,
+0001868,QA31,Svitlana,,high,major,always,,General,2024-03-14,,,,public,2024-03-14,"[Ляшенко] Видео не воспроизводится в разделе ""Лента""",new,open,
+0001867,QA31,Svitlana,,normal,trivial,always,,General,2024-03-14,,,,public,2024-03-14,"[Ляшенко] Опечатка в слове ""Android"" в разделе ""F.A.Q.""",new,open,
+0001866,QA31,Svitlana,,normal,minor,always,,General,2024-03-14,,,,public,2024-03-14,"[Ляшенко]Буква ""U"" отсутствует в списке букв словаря терминов",new,open,

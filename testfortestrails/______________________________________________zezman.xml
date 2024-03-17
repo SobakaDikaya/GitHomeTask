@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Проверка отправки данных формы при заполнении всех полей и отправки файла</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Ім&apos;я&quot;
+2. Заполнить поле &quot;Телефон&quot;
+3. Заполнить поле &quot;E-mail&quot; 
+4. Заполнить поле &quot;Коментар&quot;
+5. Прикрепить файл размером &amp;lt; 15Mb формата doc, docx, rtf, xls, pdf.
+6. Принять &quot;умови політики конфіденційності&quot;
+7. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные отправлены
+На странице появляется уведомление для пользователя об успешной отправке 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Проверка отправки данных формы при заполнении всех полей без отправки файла</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Ім&apos;я&quot;
+2. Заполнить поле &quot;Телефон&quot;
+3. Заполнить поле &quot;E-mail&quot; 
+4. Заполнить поле &quot;Коментар&quot;
+5. Принять &quot;умови політики конфіденційності&quot;
+6. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные отправлены
+На странице появляется уведомление для пользователя об успешной отправке 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Проверка отправки данных формы при заполнении только обязательных полей без отправки файла</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Ім&apos;я&quot;
+2. Заполнить поле &quot;E-mail&quot; 
+3. Принять &quot;умови політики конфіденційності&quot;
+4. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные отправлены
+На странице появляется уведомление для пользователя об успешной отправке 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Проверка отправки данных формы при заполнении всех обязательных полей и одного необязательного без отправки файла</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Ім&apos;я&quot;
+2. Заполнить поле &quot;E-mail&quot;
+3. Заполнить поле &quot;Коментар&quot; 
+4. Принять &quot;умови політики конфіденційності&quot;
+5. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные отправлены
+На странице появляется уведомление для пользователя об успешной отправке 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Проверка отправки данных формы при заполнении всех обязательных полей и одного необязательного и отправки файла</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Ім&apos;я&quot;
+2. Заполнить поле &quot;E-mail&quot;
+3. Заполнить поле &quot;Телефон&quot; 
+4. Прикрепить файл размером &amp;lt; 15Mb формата doc, docx, rtf, xls, pdf.
+5. Принять &quot;умови політики конфіденційності&quot;
+6. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные отправлены
+На странице появляется уведомление для пользователя об успешной отправке 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Проверка отправки данных формы при заполнении всех обязательных полей и поля &quot;Телефон&quot; с эстонским номером без отправки файла</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Ім&apos;я&quot;
+2. Заполнить поле &quot;E-mail&quot;
+3. В поле &quot;Телефон&quot; выбрать код Эстонии и заполнить поле номером соответствующего для этой страны формата
+4. Принять &quot;умови політики конфіденційності&quot;
+5. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные отправлены
+На странице появляется уведомление для пользователя об успешной отправке 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Проверка отправки данных формы при заполнении всех обязательных полей и поля &quot;Телефон&quot; с испанским номером и отправкой файла</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Ім&apos;я&quot;
+2. Заполнить поле &quot;E-mail&quot;
+3. В поле &quot;Телефон&quot; выбрать код Испании и заполнить поле номером соответствующего для этой страны формата
+4. Прикрепить файл размером &amp;lt; 15Mb формата doc, docx, rtf, xls, pdf.
+5. Принять &quot;умови політики конфіденційності&quot;
+6. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные отправлены
+На странице появляется уведомление для пользователя об успешной отправке 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Проверка отправки данных формы при смене &quot;Тематика звернення&quot; с заполнением всех полей без отправки файла</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Изменить &quot;Тематика звернення&quot; на &quot;Вакансії&quot;
+2. Заполнить поле &quot;Ім&apos;я&quot;
+3. Заполнить поле &quot;Телефон&quot;
+4. Заполнить поле &quot;E-mail&quot; 
+5. Заполнить поле &quot;Коментар&quot;
+6. Принять &quot;умови політики конфіденційності&quot;
+7. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные отправлены
+На странице появляется уведомление для пользователя об успешной отправке 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C9</id>
+				<title>Проверка отправки данных формы при смене &quot;Тематика звернення&quot; с отправкой файла</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Изменить &quot;Тематика звернення&quot; на &quot;Земельні ділянки&quot;
+2. Заполнить поле &quot;Ім&apos;я&quot;
+3. Заполнить поле &quot;E-mail&quot; 
+4. Прикрепить файл размером &amp;lt; 15Mb формата doc, docx, rtf, xls, pdf.
+5. Принять &quot;умови політики конфіденційності&quot;
+6. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные отправлены
+На странице появляется уведомление для пользователя об успешной отправке 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Проверка отправки данных формы при заполнении только обязательных полей и отправки файла</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Ім&apos;я&quot;
+2. Заполнить поле &quot;E-mail&quot; 
+3. Принять &quot;умови політики конфіденційності&quot;
+4. Прикрепить файл размером &amp;lt; 15Mb формата doc, docx, rtf, xls, pdf.
+5. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные отправлены
+На странице появляется уведомление для пользователя об успешной отправке 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>Проверка отправки  пустой формы</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;
+</preconds>
+										<steps>Нажать кнопку &quot;Відправити&quot;</steps>
+										<expected>Форма не отправляется.
+На странице появляется уведомление для пользователя об обязательном заполнении обязательных полей и необходимости принять политику конфиденциальности
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C12</id>
+				<title>Проверка возможности ввода кириллических букв в поле &quot;Телефон&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>Попробовать ввести буквы кириллицы в поле &quot;Телефон&quot; </steps>
+										<expected>Не вводятся</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>Проверка отправки данных формы при вводе в &quot;E-mail&quot; латинских букв без &quot;@&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Ім&apos;я&quot;
+2. Заполнить поле &quot;E-mail&quot; буквами латинского алфавита
+3. Принять &quot;умови політики конфіденційності&quot;
+4. Нажать кнопку &quot;Відправити&quot;
+
+</steps>
+										<expected>Данные не отправляются.
+На странице появляется уведомление для пользователя о необходимости ввести правильный формат &quot;E-mail&quot;
+ </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>Проверка отправки данных формы при отправке файла &gt; 15Mb</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Ім&apos;я&quot;
+2. Заполнить поле &quot;E-mail&quot; 
+3. Принять &quot;умови політики конфіденційності&quot;
+4. Прикрепить файл размером &amp;gt; 15Mb формата doc, docx, rtf, xls, pdf.
+5. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные не отправлены
+На странице появляется уведомление для пользователя о недопустимом размере файла
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>Проверка отправки данных формы при заполнении только необязательных полей</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Перейти на сайт https://zezman.ua/
+2. Долистать до формы &quot;Зв&apos;язатися з нами&quot;</preconds>
+										<steps>1. Заполнить поле &quot;Телефон&quot;
+2. Заполнить поле &quot;Коментар&quot; 
+3. Принять &quot;умови політики конфіденційності&quot;
+4. Нажать кнопку &quot;Відправити&quot;
+
+
+
+</steps>
+										<expected>Данные не отправлены
+На странице появляется уведомление для пользователя о необходимости заполнить обязательные поля
+</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
